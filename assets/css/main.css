@@ -9932,14 +9932,48 @@ img {
 
 .profile {
   display: block;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #989797;
   height: 15vh;
+}
+
+.profile__name {
+  float: left;
+  margin-left: 2rem;
+  margin-top: 10px;
+}
+.profile__name p {
+  color: #989797;
 }
 
 .profile__img {
   max-width: 100%;
   height: 10%;
   border-radius: 50%;
+  float: left;
+}
+
+.profile__button {
+  padding: 5px;
+  width: 100px;
+  color: #fff;
+  border: none;
+}
+
+.profile__button-mensaje {
+  background-color: #82b9ef;
+  margin-right: 1rem;
+}
+
+.profile__button-seguir {
+  background-color: #e87554;
+}
+
+.main__box h5 {
+  font-size: 18px;
+}
+.main__box p {
+  color: #989797;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=main.css.map */
